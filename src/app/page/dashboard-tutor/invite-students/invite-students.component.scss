@@ -1,0 +1,84 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3b82f6; /* Azul */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3f4f6; /* Gris claro */
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+    color: #010101; 
+    background-color: #28b86e;
+  }
+  
+  button:hover {
+    opacity: 0.7;
+  }
+  
+  input, select {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  //parte superior
+  select {
+    width: auto; /* Ajusta el ancho automáticamente según el contenido */
+    max-width: 150px; /* Limita el tamaño máximo */
+    box-sizing: border-box; /* Asegura que los paddings no afecten el tamaño */
+    color: #6b7280; 
+
+  }
+  
+  /* Estilos para los inputs */
+input {
+    background-color: #f9fafb; /* Fondo claro */
+    color: #000000; /* Texto negro */
+    border: 1px solid #d1d5db; /* Borde gris claro */
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  input::placeholder {
+    color: #6b7280; /* Placeholder gris medio */
+    font-style: italic;
+  }
+  
+  /* Estilos para el select */
+  select {
+    background-color: #f9fafb; /* Fondo claro */
+    color: #000000; /* Texto negro */
+    border: 1px solid #d1d5db; /* Borde gris claro */
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Opciones dentro del select */
+  select option {
+    background-color: #f9fafb; /* Fondo claro */
+    color: #000000; /* Texto negro */
+  }
+  
+  /* Estilo en hover y focus para campos de entrada */
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #3b82f6; /* Azul para indicar selección */
+    box-shadow: 0 0 4px rgba(59, 130, 246, 0.5); /* Sombra azul */
+  }
+  
