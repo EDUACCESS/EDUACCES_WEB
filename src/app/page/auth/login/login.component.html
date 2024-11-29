@@ -22,7 +22,7 @@
           Si no tienes una cuenta, únete a nuestra comunidad y crea tu cuenta aquí.
         </p>
         <button
-          (click)="router.navigate(['/register-tutor'])"
+          (click)="router.navigate(['/auth/register-tutor'])"
           class="mt-6 bg-white text-blue-600 font-bold py-2 px-4 rounded-lg shadow hover:bg-gray-200 transition"
         >
           Registrarse
@@ -88,7 +88,7 @@
         <!-- Enlace para registrarse -->
         <p class="text-center text-gray-600 mt-4">
           ¿No tienes cuenta? 
-          <span (click)="router.navigate(['/register-tutor'])" class="text-blue-600 font-bold cursor-pointer">
+          <span (click)="router.navigate(['/auth/register-tutor'])" class="text-blue-600 font-bold cursor-pointer">
             Regístrate aquí
           </span>
         </p>
